@@ -1,3 +1,39 @@
-/*
- * Estilos de tu proyecto
- */
+nav {
+  background-image: url("./../assets/images/hero.gif");
+  height: 750px;
+  width: 100%;
+  background-size: cover;
+}
+
+.logo{
+  height: 3em;
+  padding-left: 5%;
+  padding-top: 2em;
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 5em;
+  width: 5em;
+}
+.menu {
+  padding: 1em;
+  width: 80%;
+  position: relative;
+  right: 0px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.menu a {
+  margin-right: 15px;
+  border: 1px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
